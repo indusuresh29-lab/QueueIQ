@@ -1,0 +1,32 @@
+# Python environment and cache
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# macOS
+.DS_Store
+
+# Local secrets and Streamlit settings
+.env
+.env.*
+.streamlit/secrets.toml
+
+# Editor and temporary files
+.vscode/
+*.tmp
+*.log
+
+# Local backups — keep these on your computer
+*.bak
+*.backup
+*.before_*
+*.pre_*
+app_backup_*.py
+
+# Development-agent directories
+.agents/
+.claude/
